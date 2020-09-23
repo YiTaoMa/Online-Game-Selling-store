@@ -8,7 +8,7 @@
                 <a href="index.php" class="nav-item nav-link">Home</a>
                 <a href="Store.php" class="nav-item nav-link">Store</a>
                 <a href="Tetris.php" class="nav-item nav-link">Gaming</a>
-                <a href="Contact us.php" class="nav-item nav-link">Contact Us</a>
+                <a href="Blog.php" class="nav-item nav-link">Blog</a>
 
                 <?php if(isUserLoggedIn()) { ?>
                     <a href="welcome.php" class="nav-item nav-link">Welcome</a>
