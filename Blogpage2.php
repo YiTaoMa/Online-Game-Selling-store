@@ -18,14 +18,14 @@
   font-size: 40px;
   text-align: center;
   background: white;
-  background-image: url(pink.jpg);
+  background-image: url(img/pink.jpg);
 }
 .navigation{
     height: 80px;
     border: 3px solid #E3E3E3;
     margin-top: 10px;
     font-size: 20px;
-    background-image: url(pink.jpg);
+    background-image: url(img/pink.jpg);
 }
 .leftcolumn {
   float: left;
@@ -45,7 +45,7 @@
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-  background-image: url(pink.jpg);
+  background-image: url(img/pink.jpg);
 }
 .row:after {
   content: "";
@@ -57,7 +57,7 @@
   text-align: center;
   background: #ddd;
   margin-top: 20px;
-  background-image: url(pink.jpg);
+  background-image: url(img/pink.jpg);
 }
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {
@@ -76,7 +76,7 @@
               <a href="#">Homepage page</a>|
               <a href="#">Game store</a>|
               <a href="#">Contact us page</a>|
-              <a href="Blog.html">Blog</a>|
+              <a href="Blog.php">Blog</a>|
               <a href="#">Purchase</a>|
               <a href="#">Register</a>|
               <a href="#">Login</a>
@@ -87,11 +87,11 @@
     <div class="card">
         <h2>What game do you usually play?</h2>
         <h5>Title description, Sep 20, 2020</h5>
-        <p><div><img src="imag2.jpg" alt="imag2" width="600px" height="400px"></div>
+        <p><div><img src="img/imag2.jpg" alt="imag2" width="600px" height="400px"></div>
         What kind of game product do you like? What kind of game do you usually play? 
             Welcome to discuss with us.</p>
 
-            <form action="Blogpage1.html" method="GET">
+            <form action="Blogpage1.php" method="GET">
                 <div>
                 <textarea name="comments" id="comments" style="width:96%;height:100px;padding:2%;font-size:1.2em;border:1px solid #6DB72C;"">
                 Hey... say something!
@@ -100,7 +100,7 @@
                 <input type="submit" value="Submit">
                 </form>
 
-            <a href="Blog.html">Back to blog page</a>|<a href="Blogpage1.html">Go to next blog</a>
+            <a href="Blog.php">Back to blog page</a>|<a href="Blogpage1.php">Go to next blog</a>
       </div>
 
   </div>
