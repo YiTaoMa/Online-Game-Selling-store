@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-<?php require_once('fragment/functions.inc.php'); ?>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <link rel="stylesheet" href="tetris/tetris.css" media="screen" type="text/css" />
-  
-</head>
-
-<body>
-<?php require_once('fragment/nav.inc.php'); ?>
-<div class="container">
-<div class="game-window">
-  <!-- left -->
-  <div class="left-bar">
-=======
 <!DOCTYPE html>
 <html>
 
@@ -31,38 +14,27 @@
   <!-- left -->
   <div class="left-bar">
 
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
     <div class="holdbox">
       <span>HOLD</span>
       <canvas id="hold" width="202" height="138"></canvas>
     </div>
-<<<<<<< HEAD
-    <div class="left-bar-content">
-=======
 
     <div class="left-bar-content">
 
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
       <div class="leftbox">
         <span class="label">SCORE</span>
         <div>
           <span id="panel-score">0</span>
         </div>
       </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
       <div class="leftbox">
         <span class="label">LEVELS</span>
         <div>
           <span id="panel-line">0</span>
         </div>
       </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
       <div class="leftbox">
         <span class="label">You Got</span>
         <div>
@@ -70,12 +42,6 @@
         </div>
         <span class="label">Discount</span>
       </div>
-<<<<<<< HEAD
-      <div class="leftbox">
-        <button onclick="generateCode()">Generate Coupon Code</button>
-      </div>
-    </div>
-=======
 
       <div class="leftbox">
         <button onclick="generateCode()">Generate Coupon Code</button>
@@ -84,18 +50,10 @@
     </div>
 
 
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
     <div class="option-bar">
       <a href="javascript:void(0)" id="top10" onclick="document.getElementById('u-info').style.display='block'; document.getElementById('u-option').style.display='none'">Ranking List</a>
       <a href="javascript:void(0)" id="setting" onclick="document.getElementById('u-option').style.display='block'; document.getElementById('u-info').style.display='none'">Settings</a>
     </div>
-<<<<<<< HEAD
-  </div>
-  <!-- center -->
-  <div id="canvas-box" style="width: 320px; height: 640px;">
-    <canvas width="320" height="640" id="game"></canvas>
-  </div>
-=======
 
   </div>
 
@@ -105,15 +63,11 @@
 
   </div>
 
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
   <!-- right -->
   <div class="right-bar">
     <div class="right-bar-top">
       <div class="right-label-top">
-<<<<<<< HEAD
-=======
 
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
       </div>
       <canvas id="s-canvas" width="184" height="550"></canvas>
     </div>
@@ -125,10 +79,7 @@
     </div>
   </div>
 </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
 <div class="w-border" id="u-info">
   <div class="w-head">
     <span class="w-title">Ranking List - Top 10</span>
@@ -205,35 +156,24 @@
       </tbody></table>
   </div>
 </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
 <div class="w-border" id="u-option">
   <div class="w-head">
     <span class="w-title">Settings</span>
     <span title="closeAncSave" id="opt-bt-yes" class="w-close-x" onclick="document.getElementById('u-option').style.display='none'">×</span>
   </div>
   <div class="w-body">
-<<<<<<< HEAD
-    <div class="cont-opt">
-      <div>Music</div>
-=======
 
     <div class="cont-opt">
 
       <div>Music</div>
 
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
       <div class="opt-item mb-sound">
         <div>
           <span>Pause</span><input id="off-sound" type="checkbox">
         </div>
       </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
       <div>About</div>
       <div class="opt-item about-me">
         <span><b>AR-TH-930-HD</b></span>
@@ -241,17 +181,10 @@
     </div>
   </div>
 </div>
-<<<<<<< HEAD
-<script src="tetris/tetris1.js"></script>
-<?php require_once('fragment/footer.inc.php'); ?>
-</div>
-</body>
-=======
 
 
 
 <script src="tetris/tetris1.js"></script>
 </body>
 
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
 </html>
