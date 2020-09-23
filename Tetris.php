@@ -4,7 +4,7 @@
 
 <head>
   <link rel="stylesheet" href="tetris/tetris.css" media="screen" type="text/css" />
-  <?php require_once('fragment/head.inc.php'); ?>
+  
 </head>
 
 <body>
