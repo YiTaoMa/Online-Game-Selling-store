@@ -1,0 +1,16 @@
+{
+    "matthew@gmail.com": {
+        "firstname": "Matthew",
+        "lastname": "Bolger",
+        "email": "matthew@gmail.com",
+        "phone": "+61 412 123 123",
+        "password": "abc123"
+    },
+    "test@test.mail": {
+        "firstname": "abc",
+        "lastname": "def",
+        "email": "test@test.mail",
+        "phone": "+61 412 345 678",
+        "password": "123456"
+    }
+}
