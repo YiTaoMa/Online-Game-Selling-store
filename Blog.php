@@ -17,14 +17,14 @@
   font-size: 40px;
   text-align: center;
   background: white;
-  background-image: url(pink.jpg);
+  background-image: url(img/pink.jpg);
 }
 .navigation{
     height: 80px;
     border: 3px solid #E3E3E3;
     margin-top: 10px;
     font-size: 20px;
-    background-image: url(pink.jpg);
+    background-image: url(img/pink.jpg);
 }
 .leftcolumn {
   float: left;
@@ -44,7 +44,7 @@
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-  background-image: url(pink.jpg);
+  background-image: url(img/pink.jpg);
 }
 .row:after {
   content: "";
@@ -56,7 +56,7 @@
   text-align: center;
   background: #ddd;
   margin-top: 20px;
-  background-image: url(pink.jpg);
+  background-image: url(img/pink.jpg);
 }
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {
