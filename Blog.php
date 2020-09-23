@@ -86,14 +86,14 @@
     <div class="card">
       <h2>Do you like our website?</h2>
       <h5>Title description, Sep 19, 2020</h5>
-      <a href="Blogpage1.php"><div><img src="imag1.jpg" alt="imag1" style="width:600px;height:400px;"></div>
+      <a href="Blogpage1.php"><div><img src="img/imag1.jpg" alt="imag1" style="width:600px;height:400px;"></div>
       The blog introduces the introduction and explanation of the game, 
           welcome to have comment to share your interesting ideas with us.</a>
     </div>
     <div class="card">
       <h2>What game do you usually play?</h2>
       <h5>Title description, Sep 20, 2020</h5>
-      <a href="Blogpage2.php"><div><img src="imag2.jpg" alt="imag2" width="600px" height="400px"></div>
+      <a href="Blogpage2.php"><div><img src="img/imag2.jpg" alt="imag2" width="600px" height="400px"></div>
       What kind of game product do you like? What kind of game do you usually play? 
           Welcome to discuss with us.</a>
     </div>
