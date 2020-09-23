@@ -7,7 +7,7 @@
             <div class="navbar-nav">
                 <a href="index.php" class="nav-item nav-link">Home</a>
                 <a href="Store.php" class="nav-item nav-link">Store</a>
-                <a href="Gaming.php" class="nav-item nav-link">Gaming</a>
+                <a href="Tetris.php" class="nav-item nav-link">Gaming</a>
                 <a href="Contact us.php" class="nav-item nav-link">Contact Us</a>
 
                 <?php if(isUserLoggedIn()) { ?>

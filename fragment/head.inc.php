@@ -23,3 +23,14 @@
     <script type="text/javascript" src="https://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
     <script type="text/javascript" src="js/logo.js"></script>
 </div>
+
+<style>
+    .logo {
+        background-image: url('img/background.gif');
+        height: 300px;
+    }
+    #myCanvas {
+        position: absolute;
+        top: -100px;
+    }
+</style>
