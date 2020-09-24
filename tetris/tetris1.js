@@ -295,8 +295,4 @@ function reset(){
     alert("Are You Sure to Reset?");
     window.location.reload();
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83

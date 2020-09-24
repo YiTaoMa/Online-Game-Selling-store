@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-  .game-window{
-     z-index: 1;
-     display: flex;
-     justify-content: center;
-=======
   body {
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
      background: grey;
      display: flex;
      align-items: center;
      justify-content: center;
-<<<<<<< HEAD
-=======
    }
 
   html, body {
@@ -28,7 +19,6 @@
      z-index: 1;
      display: flex;
      justify-content: center;
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
   }
 
   #canvas-box{
@@ -231,8 +221,4 @@
   th, td {
       text-align: center;
       width : 6em;
-<<<<<<< HEAD
   }
-=======
-  }
->>>>>>> 33888e324705854925ce10e974b79836cf9b7e83
