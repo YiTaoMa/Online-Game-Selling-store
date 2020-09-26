@@ -6,7 +6,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
                 <a href="index.php" class="nav-item nav-link">Home</a>
-                <a href="Store.php" class="nav-item nav-link">Store</a>
+                <a href="store.php" class="nav-item nav-link">Store</a>
                 <a href="Tetris.php" class="nav-item nav-link">Gaming</a>
                 <a href="Blog.php" class="nav-item nav-link">Blog</a>
 
