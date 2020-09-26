@@ -7,7 +7,6 @@
     <title>Project</title>
     <link rel="stylesheet" type="text/css" href="StorePackage/store.css">
 </head>
-
 <body>
     <!--Reerence: The bootstrap is inspired by COSC2413 Web programming Shekhar Lecture5 Example 9.-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
