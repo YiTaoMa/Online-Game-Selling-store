@@ -15,6 +15,9 @@
             "game1 game1 game1 game2 game2 game2"
             "game3 game3 game3 game4 game4 game4"
             "game5 game5 game5 game6 game6 game6"
+            "game7 game7 game7 game8 game8 game8"
+            "game9 game9 game9 game10 game10 game10"
+            "game11 game11 game11 game12 game12 game12"
             position: absolute;
         width: 100%;
         height: 100%;
@@ -64,6 +67,36 @@
 
     .ganme6 {
         grid-area: game6;
+        text-align: center;
+    }
+
+    .ganme7 {
+        grid-area: game7;
+        text-align: center;
+    }
+
+    .ganme8 {
+        grid-area: game8;
+        text-align: center;
+    }
+
+    .ganme9 {
+        grid-area: game9;
+        text-align: center;
+    }
+
+    .ganme10 {
+        grid-area: game10;
+        text-align: center;
+    }
+
+    .ganme11 {
+        grid-area: game11;
+        text-align: center;
+    }
+
+    .ganme12 {
+        grid-area: game12;
         text-align: center;
     }
 
@@ -132,7 +165,7 @@
         </div>
 
         <div class="game5 box">
-            <img class="box" src="StorePackage/game5.jpg" alt="GameImage4" width="200px" height="200px"> <br>
+            <img class="box" src="StorePackage/game5.jpg" alt="GameImage5" width="200px" height="200px"> <br>
             <span class="gameFont">Crash Bandicoot 4: It's About Time<br><span
                     class="colorWhite">$99.95</span></span><br><br><br>
             <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
@@ -140,12 +173,53 @@
         </div>
 
         <div class="game6 box">
-            <img class="box" src="StorePackage/game6.jpg" alt="GameImage4" width="200px" height="200px"> <br>
+            <img class="box" src="StorePackage/game6.jpg" alt="GameImage6" width="200px" height="200px"> <br>
             <span class="gameFont">Call of Duty®: Black Ops Cold War<br><span class="colorWhite">$109.95</span></span>
             <span class="couponCode">Coupon Code applied</span><br><br><br>
             <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+        </div>
 
+        <div class="game7 box">
+            <img class=" box" src="StorePackage/game7.jpg" alt="GameImage7" width="200px" height="200px"> <br>
+            <span class="gameFont">Assassin's Creed: Valhalla Drakkar Edition<br><span class="colorWhite">$99.95 </span>
+                <span class="couponCode">Coupon Code applied</span><br><br><br>
+                <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+        </div>
 
+        <div class="game8 box">
+            <img class="box" src="StorePackage/game8.jpg" alt="GameImage8" width="200px" height="200px"> <br>
+            <span class="gameFont">EA Sports UFC 4<br><span class="colorWhite">$99.95</span></span>
+            <span class="couponCode">Coupon Code applied</span><br><br><br>
+            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+
+        </div>
+
+        <div class="game9 box">
+            <img class="box" src="StorePackage/game9.jpg" alt="GameImage9" width="200px" height="200px"> <br>
+            <span class="gameFont">Mafia: Definitive Edition<br><span class="colorWhite">$69.95</span></span>
+            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+
+        </div>
+
+        <div class="game10 box">
+            <img class="box" src="StorePackage/game10.jpg" alt="GameImage10" width="200px" height="200px"> <br>
+            <span class="gameFont">Minecraft Dungeons<br><span class="colorWhite">$49.95</span></span><br><br><br>
+            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+
+        </div>
+
+        <div class="game11 box">
+            <img class="box" src="StorePackage/game11.jpg" alt="GameImage11" width="200px" height="200px"> <br>
+            <span class="gameFont">Hogwarts Legacy<br><span class="colorWhite">$99.95</span></span>
+            <span class="couponCode">Coupon Code applied</span><br><br><br>
+            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+
+        </div>
+
+        <div class="game12 box">
+            <img class="box" src="StorePackage/game12.jpg" alt="GameImage12" width="200px" height="200px"> <br>
+            <span class="gameFont">Days Gone (preowned)<br><span class="colorWhite">$22.00</span></span>
+            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
         </div>
 
     </div>
