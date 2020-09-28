@@ -182,7 +182,7 @@ body{
 .explain p{padding:3px 0;}
 
 .couponBtn{
-    display: flex;
+    display: none;
     position: relative;
     text-align: center;
     margin: 0 auto;
@@ -194,13 +194,12 @@ body{
     display: none;
     position: absolute;
     margin: 0 auto;
-    z-index: 5;
     color: #FFF;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 30%;
     text-align: center;
-    border : 1px solid #FFF;
-    background-color: #175266;
+    border : 1px solid #ffc400;
+    background-color: black;
     box-shadow: 0 0 5px #000;
 }
 
@@ -211,11 +210,11 @@ body{
 }
 
 .w-title{
-    color : #fff;
+    color : #ffc400;
 }
 
 .w-close-x{
-    color : #ccc;
+    color : #ffc400;
     text-align: center;
     width : 1.2em;
     height: 1.2em;
@@ -224,7 +223,7 @@ body{
 }
 
 .w-close-x:hover{
-    color : #fff;
+    color : #ffc400;
 }
 
 .w-body{
@@ -233,5 +232,23 @@ body{
     min-height: 10.5em;
     min-width: 18.5em;
     border-top: 1px solid rgb(31, 31, 31);
-    background-color: #11365f;
+    background-color: black;
+}
+
+.cont-opt{
+    display: flex;
+    padding: 35px;
+    max-height: 470px;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+.opt-item{
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    border-radius: 3px;
+    margin: 5px 0;
+    padding: 15px;
+    border : 1px solid #999;
 }

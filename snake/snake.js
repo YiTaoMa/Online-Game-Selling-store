@@ -6,14 +6,14 @@ $(function(){
   })
 
   $('.game_over').on('click',function(){
-    $('.start').stop().show();
-    $(this).closest('.over').stop().hide();
-    $('input[name=your_name]').val('');
+    alert("You only got one chance");
   })
 
   $('.clear_data').on('click',function(){
     $('.ranking_list').empty();
   })
+
+
 
 })
 
@@ -183,6 +183,7 @@ function mySnakeFn(){
   //游戏结束
   function gameOver(){
     $('.over').show();
+    document.getElementById('couponCodeBtn').style.display='block';
   }
 
   //获取用户昵称
