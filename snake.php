@@ -3,6 +3,12 @@
 <html lang="en">
 <?php require_once('fragment/functions.inc.php'); ?>
 
+<audio controls="controls" autoplay="autoplay" controls="controls" loop="loop" >
+			<source src="music/hahaha.mp3" type="audio/mp3">
+			<source src="music/hahaha.mp3" type="audio/ogg">
+			<embed height="50px" width="100px" src="file/tears.mp3">
+		</audio>
+    
 <head>
     <?php require_once('fragment/head.inc.php'); ?>
     <meta charset="utf-8">
