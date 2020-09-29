@@ -13,8 +13,6 @@ $(function(){
     $('.ranking_list').empty();
   })
 
-
-
 })
 
 function mySnakeFn(){
@@ -180,18 +178,20 @@ function mySnakeFn(){
     })
   }
 
-  //游戏结束
-  function gameOver(){
-    $('.over').show();
-    document.getElementById('couponCodeBtn').style.display='block';
-  }
-
   //获取用户昵称
   function yourName(){
     if($.trim($('input[name=your_name]').val()) != ''){
       return $('input[name=your_name]').val();
     }else{
       return 'Guest';
+    }
+  }
+
+  //游戏结束
+  function gameOver(){
+    $('.over').show();
+    if (1 + parseInt($('.ranking_list li').length) == 1){
+      document.getElementById('couponCodeBtn').style.display='block';
     }
   }
 
