@@ -168,14 +168,14 @@
             <img class=" box" src="StorePackage/PCgame1.jpg" alt="PCGameImage1" width="200px" height="200px"> <br>
             <span class="gameFont">Cyberpunk 2077 Day One Edition<br><span class="colorWhite">$99.95 </span>
                 <span class="couponCode">Coupon Code applied</span><br><br><br>
-                <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+                <div><a class="box checkout" href="purchase/PC1.php" target="_parent">Check Out</a></div>
         </div>
 
         <div class="game2 box">
             <img class="box" src="StorePackage/PCgame2.jpg" alt="PCGameImage2" width="200px" height="200px"> <br>
             <span class="gameFont">Total War: Three Kingdoms - Royal Edition<br><span
                     class="colorWhite">$69.95</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="purchase/PC2.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -183,7 +183,7 @@
             <img class="box" src="StorePackage/PCgame3.jpg" alt="PCGameImage3" width="200px" height="200px"> <br>
             <span class="gameFont">The Elder Scrolls Online: Greymoor Upgrade Collector's Edition<br><span class="colorWhite">$249.95</span></span>
             <span class="couponCode">Coupon Code applied</span><br><br><br>
-            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="purchase/PC3.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -191,7 +191,7 @@
             <img class="box" src="StorePackage/PCgame4.jpg" alt="PCGameImage4" width="200px" height="200px"> <br>
             <span class="gameFont">Rage 2<br><span class="colorWhite">$14.95</span></span>
             <br><br><br>
-            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="purchase/PC4.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -199,7 +199,7 @@
             <img class="box" src="StorePackage/PCgame5.jpg" alt="PCGameImage5" width="200px" height="200px"> <br>
             <span class="gameFont">Men of War Assault Squad 2: Cold War<br><span
                     class="colorWhite">$14.95</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="purchase/PC5.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -207,21 +207,21 @@
             <img class="box" src="StorePackage/PCgame6.jpg" alt="PCGameImage6" width="200px" height="200px"> <br>
             <span class="gameFont">Sniper Ghost Warrior Contracts 2<br><span class="colorWhite">$59.95</span></span>
             <span class="couponCode">Coupon Code applied</span><br><br><br>
-            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="purchase/PC6.php" target="_parent">Check Out</a></div>
         </div>
 
         <div class="game7 box">
             <img class=" box" src="StorePackage/PCgame7.jpg" alt="PCGameImage7" width="200px" height="200px"> <br>
             <span class="gameFont">Paranormal Pursuit: The Gifted One<br><span class="colorWhite">$14.95 </span>
                 <br><br><br>
-                <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+                <div><a class="box checkout" href="purchase/PC7.php" target="_parent">Check Out</a></div>
         </div>
 
         <div class="game8 box">
             <img class="box" src="StorePackage/PCgame8.jpg" alt="PCGameImage8" width="200px" height="200px"> <br>
             <span class="gameFont">Crash Bandicoot: N-Sane Trilogy<br><span class="colorWhite">$69.95</span></span>
             <span class="couponCode">Coupon Code applied</span><br><br><br>
-            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="purchase/PC8.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -229,14 +229,14 @@
             <img class="box" src="StorePackage/PCgame9.jpg" alt="PCGameImage9" width="200px" height="200px"> <br>
             <span class="gameFont">Monkey King: Hero is Back<br><span
                     class="colorWhite">$9.95</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="purchase/PC9.php" target="_parent">Check Out</a></div>
 
         </div>
 
         <div class="game10 box">
             <img class="box" src="StorePackage/PCgame10.jpg" alt="PCGameImage10" width="200px" height="200px"> <br>
             <span class="gameFont">Mystery Tales: The Reel Horror<br><span class="colorWhite">$14.95</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="purchase/PC10.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -244,14 +244,14 @@
             <img class="box" src="StorePackage/PCgame11.jpg" alt="PCGameImage11" width="200px" height="200px"> <br>
             <span class="gameFont">Football Manager 2020<br><span class="colorWhite">$49.95</span></span>
            <br><br><br>
-            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="purchase/PC11.php" target="_parent">Check Out</a></div>
 
         </div>
 
         <div class="game12 box">
             <img class="box" src="StorePackage/PCgame12.jpg" alt="PCGameImage12" width="200px" height="200px"> <br>
             <span class="gameFont">Anthem<br><span class="colorWhite">$1.00</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="purchase/PC12.php" target="_parent">Check Out</a></div>
         </div>
 
     </div>
