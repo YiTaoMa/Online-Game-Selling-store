@@ -5,13 +5,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-                <a href="../index.php" class="nav-item nav-link">Home</a>
-                <a href="../store.php" class="nav-item nav-link">Store</a>
-                <a href="../snake.php" class="nav-item nav-link">Gaming</a>
-                <a href="../Blog.php" class="nav-item nav-link">Blog</a>
+                <a href="snake.php" class="nav-item nav-link">Gaming</a>
+                <a href="store.php" class="nav-item nav-link">Store</a>
+                <a href="Blog.php" class="nav-item nav-link">Blog</a>
 
                 <?php if(isUserLoggedIn()) { ?>
-                    <a href="../welcome.php" class="nav-item nav-link">Welcome</a>
+                    <a href="news.php" class="nav-item nav-link">News</a>
                 <?php } ?>
             </div>
             <div class="navbar-nav ml-auto">
@@ -19,10 +18,10 @@
                     <span class="nav-item nav-link text-light">
                         Welcome, <?php echo $_SESSION[USER_SESSION_KEY]['firstname']; ?>
                     </span>
-                    <a href="../logout.php" class="nav-item nav-link">Logout</a>
+                    <a href="logout.php" class="nav-item nav-link">Logout</a>
                 <?php } else { ?>
-                    <a href="../register.php" class="nav-item nav-link">Register</a>
-                    <a href="../login.php" class="nav-item nav-link">Login</a>
+                    <a href="register.php" class="nav-item nav-link">Register</a>
+                    <a href="login.php" class="nav-item nav-link">Login</a>
                 <?php } ?>
             </div>
         </div>
