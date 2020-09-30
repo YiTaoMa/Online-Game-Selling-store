@@ -23,7 +23,7 @@
         <source src="music/hahaha.mp3" type="audio/ogg">
         <embed height="50px" width="100px" src="file/tears.mp3">
     </audio>
-    <h1>Welcome HD Games! Before you go shopping, try playing games to relax and you may get coupons.</h1>
+    <h1 style="font-family: Courier New; font-size: 30px;">Welcome HD Games! Before you go shopping, try playing games to relax and you may get coupons.</h1>
     <div class="wrap">
         <ul class="snake_wrap">
             <li class="light"></li>
