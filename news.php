@@ -1,9 +1,10 @@
-<?php require_once('fragment/functions.inc.php'); ?>
+<?php require_once('fragment/authorise.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <?php require_once('fragment/head.inc.php'); ?>
 </head>
+<body>
 <body>
     <?php require_once('fragment/nav.inc.php'); ?>
 
@@ -51,5 +52,6 @@
 
         <?php require_once('fragment/footer.inc.php'); ?>
     </div>
+</body>
 </body>
 </html>
