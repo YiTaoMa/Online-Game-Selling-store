@@ -6,9 +6,7 @@ $(function(){
   })
 
   $('.game_over').on('click',function(){
-    $('.start').stop().show();
-    $(this).closest('.over').stop().hide();
-    $('input[name=your_name]').val('');
+    alert('You got only one chance a day');
   })
 
   $('.clear_data').on('click',function(){
@@ -192,18 +190,29 @@ function mySnakeFn(){
   //游戏结束
   function gameOver(){
     $('.over').show();
-    $.each($('.ranking_list li'),function() {
-      if ($(this).children('.No').val() == 1) {
-        document.getElementById('no1_name').innerHTML = yourName();
-        document.getElementById('no1_score').innerHTML = myVar.myscore;
-      } else if ($(this).children('.No').val() == 2) {
-        document.getElementById('no2_name').innerHTML = yourName();
-        document.getElementById('no2_score').innerHTML = myVar.myscore;
-      } else if ($(this).children('.No').val() == 3) {
-        document.getElementById('no3_name').innerHTML = yourName();
-        document.getElementById('no3_score').innerHTML = myVar.myscore;
-      }
-    })
+    // $.each($('.ranking_list li'),function() {
+    //   if ($(this).children('.No').val() == 1) {
+    //     document.getElementById('no1_name').innerHTML = yourName();
+    //     document.getElementById('no1_score').innerHTML = myVar.myscore;
+    //   } else if ($(this).children('.No').val() == 2) {
+    //     document.getElementById('no2_name').innerHTML = yourName();
+    //     document.getElementById('no2_score').innerHTML = myVar.myscore;
+    //   } else if ($(this).children('.No').val() == 3) {
+    //     document.getElementById('no3_name').innerHTML = yourName();
+    //     document.getElementById('no3_score').innerHTML = myVar.myscore;
+    //   }
+    // })
+    if (1 +parseInt($('.ranking_list li').length) == 1) {
+      document.getElementById('no1_name').innerHTML = yourName();
+      document.getElementById('no1_score').innerHTML = myVar.myscore;
+    } else if (1 +parseInt($('.ranking_list li').length) == 2) {
+      document.getElementById('no2_name').innerHTML = yourName();
+      document.getElementById('no2_score').innerHTML = myVar.myscore;
+    } else if (1 +parseInt($('.ranking_list li').length) == 3) {
+      document.getElementById('no3_name').innerHTML = yourName();
+      document.getElementById('no3_score').innerHTML = myVar.myscore;
+    }
+
   }
 
   //排行榜
@@ -238,5 +247,6 @@ function mySnakeFn(){
       $(this).children('.NO').html($(this).index() +1)
     })
   }
+
 
 }

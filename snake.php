@@ -70,6 +70,9 @@
                             NO1-<?php require('snake/couponCode.php'); ?>
                         </div>
                     </div>
+                    <div>
+                        <a href="store.php">GO SHOPPING</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -86,6 +89,10 @@
                         <div>
                            NO2-<?php require('snake/couponCode.php'); ?>
                         </div>
+                    </div>
+
+                    <div>
+                        <a href="store.php">GO SHOPPING</a>
                     </div>
                 </div>
             </div>
@@ -104,6 +111,10 @@
                             NO3-<?php require('snake/couponCode.php'); ?>
                         </div>
                     </div>
+
+                    <div>
+                        <a href="store.php">GO SHOPPING</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -121,6 +132,10 @@
                             TOP10-<?php require('snake/couponCode.php'); ?>
                         </div>
                     </div>
+
+                    <div>
+                        <a href="store.php">GO SHOPPING</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -135,7 +150,7 @@
                 <button onclick="document.getElementById('u-coupon1').style.display='block';
                 document.getElementById('u-coupon2').style.display='none';
                 document.getElementById('u-coupon3').style.display='none';
-                document.getElementById('u-coupon4-10').style.display='none'">Receive Coupon Code</button>
+                document.getElementById('u-coupon4-10').style.display='none'">Generate Coupon Code</button>
             </li>
             <li>
                 <h5>NO.2</h5>
@@ -145,7 +160,7 @@
                 <button onclick="document.getElementById('u-coupon2').style.display='block';
                 document.getElementById('u-coupon3').style.display='none';
                 document.getElementById('u-coupon1').style.display='none';
-                document.getElementById('u-coupon4-10').style.display='none'">Receive Coupon Code</button>
+                document.getElementById('u-coupon4-10').style.display='none'">Generate Coupon Code</button>
             </li>
             <li>
                 <h5>NO.3</h5>
@@ -155,7 +170,7 @@
                 <button onclick="document.getElementById('u-coupon3').style.display='block';
                 document.getElementById('u-coupon1').style.display='none';
                 document.getElementById('u-coupon2').style.display='none';
-                document.getElementById('u-coupon4-10').style.display='none'">Receive Coupon Code</button>
+                document.getElementById('u-coupon4-10').style.display='none'">Generate Coupon Code</button>
             </li>
             <li>
                 <h5>NO.4-10</h5>
@@ -165,7 +180,7 @@
                 <button onclick="document.getElementById('u-coupon4-10').style.display='block';
                 document.getElementById('u-coupon3').style.display='none';
                 document.getElementById('u-coupon1').style.display='none';
-                document.getElementById('u-coupon2').style.display='none'">Receive Coupon Code</button>
+                document.getElementById('u-coupon2').style.display='none'">Generate Coupon Code</button>
             </li>
         </ul>
     </div>
