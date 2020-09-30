@@ -5,7 +5,7 @@
         $errors = registerUser($_POST);
 
         if(count($errors) === 0) {
-            header('Location: news.php');
+            header('Location: login.php');
             exit();
         }
     }

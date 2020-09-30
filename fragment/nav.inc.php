@@ -7,11 +7,9 @@
             <div class="navbar-nav">
                 <a href="snake.php" class="nav-item nav-link">Gaming</a>
                 <a href="store.php" class="nav-item nav-link">Store</a>
+                <a href="news.php" class="nav-item nav-link">News</a>
                 <a href="Blog.php" class="nav-item nav-link">Blog</a>
 
-                <?php if(isUserLoggedIn()) { ?>
-                    <a href="news.php" class="nav-item nav-link">News</a>
-                <?php } ?>
             </div>
             <div class="navbar-nav ml-auto">
                 <?php if(isUserLoggedIn()) { ?>
