@@ -69,44 +69,53 @@
 <div class="container">
     <div class="row">
         <div class="leftcolumn">
-            <div class="card">
-                <h2>Do you like our website?</h2>
-                <h5>Title description, Sep 19, 2020</h5>
-                <a href="Blogpage1.php"><div><img src="img/imag1.jpg" alt="imag1" style="width:600px;height:400px;"></div>
-                    The blog introduces the introduction and explanation of the game,
-                    welcome to have comment to share your interesting ideas with us.</a>
-            </div>
-            <div class="card">
-                <h2>What game do you usually play?</h2>
-                <h5>Title description, Sep 20, 2020</h5>
-                <a href="Blogpage2.php"><div><img src="img/imag2.jpg" alt="imag2" width="600px" height="400px"></div>
-                    What kind of game product do you like? What kind of game do you usually play?
-                    Welcome to discuss with us.</a>
-            </div>
-        </div>
-        <div class="rightcolumn">
-            <div class="card">
-                <h2>About Me</h2>
-                <div class="fakeimg" style="height:100px;">Image</div>
-                <p>Some text about me...</p>
-            </div>
-            <div class="card">
-                <h3>Popular Post</h3>
-                <div class="fakeimg">Image</div><br>
-                <div class="fakeimg">Image</div><br>
-                <div class="fakeimg">Image</div>
-            </div>
-            <div class="card">
-                <h3>Follow Me</h3>
-                <p>Some text..</p>
-            </div>
-        </div>
-    </div>
-    <?php require_once('fragment/footer.inc.php'); ?>
+        <div class="card">
+        <?php
+          require_once('config1.php');
+          require_once('class.php');
+          $connection = new dbController(HOST,USER,PASS,DB);
+          $sql = "select blogname, blogdate, image, description, blogid from blogpage";
+          $records = $connection->getAllRecords($sql);
+
+          foreach ($records as $row){
+            echo "<h2>{$row['blogname']}</h2>";
+            echo "<p>{$row['blogdate']}</p>";
+            echo "<img src='{$row['image']}' alt='{$row['blogname']}'>";
+            echo "<p><a href='Details1.php?id={$row['blogid']}'>Read more</a></p>";
+          }
+
+
+
+        ?>
 </div>
 
+</div>
 
+<div class="rightcolumn">
+    <div class="card">
+        <h2>Create blogs!</h2>
+        <div><img src="img/create.jpg" alt="create" style="width:200px;height:100px;"></div>
+        <p>Let's creat your own blog!</p>
+        <div><a href="insert_blog.php">Create a New Blog</a></div>
+    </div>
+    <div class="card">
+        <h3>Popular Post</h3>
+        <div><img src="img/post1.jpg" alt="post1" style="width:200px;height:70px;"></div><br>
+        <div><img src="img/post2.jpg" alt="post2" style="width:200px;height:70px;"></div><br>
+        <div><img src="img/post3.jpg" alt="post3" style="width:200px;height:70px;"></div>
+    </div>
+    <div class="card">
+        <h3>Follow Me</h3>
+        <p>Instagram: HDgames
+           Fackbook: HDgames</p>
+        
+    </div>
+    
+</div>
+</div>
 
+<?php require_once('fragment/footer.inc.php'); ?>
+</div>
 
 
 </body>
