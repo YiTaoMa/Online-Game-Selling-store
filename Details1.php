@@ -1,3 +1,10 @@
+<?php
+    date_default_timezone_set('Australia/Melbourne');
+    include 'dbh.inc.php';
+    include 'comments.inc.php';
+?>
+
+
 <?php require_once('fragment/functions.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,11 +42,7 @@
             width: 25%;
             padding-left: 20px;
         }
-        .fakeimg {
-            background-color: #aaa;
-            width: 100%;
-            padding: 20px;
-        }
+  
         .card {
             background-color: white;
             padding: 20px;
@@ -63,6 +66,37 @@
                 width: 100%;
                 padding: 0;
             }
+        }
+        textarea {
+            width: 400px;
+            height: 80px;
+            background-color: #fff;
+            resize: none;
+        }
+        button {
+            width: 100px;
+            height: 30px;
+            background-color: #282828;
+            border: none;
+            color: #fff;
+            font-family: arial;
+            font-weight: 400;
+            cursor: pointer;
+            margin-bottom: 60px;
+        }
+        .comment-box{
+            width: 815px;
+            padding: 20px;
+            margin-bottom: 4px;
+            background-color: #fff;
+            border-radius: 4px;
+        }
+        .comment-box p {
+            font-family: arial;
+            font-size: 14px;
+            line-height: 16px;
+            color: #282828;
+            font-weight: 100;
         }
     </style>
 </head>
@@ -91,6 +125,20 @@ echo "<img src='{$records['image']}' alt='{$records['blogname']}'>";
 echo "<p>{$records['description']}</p>";
 
 ?>
+
+<?php
+echo "<form method='POST' action='".setComments($conn)."'>
+       <input type='hidden' name='uid' value='Anonymous'>
+       <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
+       <textarea name='message'></textarea><br>
+       <button type='submit' name='commentSubmit'>Comment</button>
+</form>";
+
+getComments($conn);
+?>
+       
+
+
 </div>
 
 
