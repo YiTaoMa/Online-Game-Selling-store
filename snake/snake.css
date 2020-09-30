@@ -170,6 +170,7 @@ body{
     height:620px;
     font-size:14px;
     line-height:22px;
+    border: 2px solid #ffc400;
 }
 
 .explain h3{
@@ -250,4 +251,67 @@ body{
     margin: 5px 0;
     padding: 15px;
     border : 1px solid #999;
+}
+
+.reward{
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    width: 1040px;
+    height: 250px;
+    color:#ffc400;
+    padding:10px;
+    font-size:14px;
+    line-height:22px;
+    background-color: black;
+    border: 2px solid #ffc400;
+}
+
+.reward_list li{
+    float: left;
+    width: 250px;
+    text-align: center;
+}
+
+.reward_list li h4{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reward_list li button{
+    background-color: #ffc400;
+    color: black;
+    border: 1px solid #ffc400;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.reward_list li p{
+    color: #ffc400;
+    text-align: center;
+}
+
+.reward_no1{
+    text-align: center;
+    margin: 0 auto;
+    height: 22px;
+}
+
+.reward_no2{
+    text-align: center;
+    margin: 0 auto;
+    height: 22px;
+}
+
+.reward_no3{
+    text-align: center;
+    margin: 0 auto;
+    height: 22px;
+}
+
+.reward_no4-10{
+    text-align: center;
+    margin: 0 auto;
+    height: 22px;
 }

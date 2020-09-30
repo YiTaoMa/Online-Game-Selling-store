@@ -6,7 +6,9 @@ $(function(){
   })
 
   $('.game_over').on('click',function(){
-    alert("You only got one chance");
+    $('.start').stop().show();
+    $(this).closest('.over').stop().hide();
+    $('input[name=your_name]').val('');
   })
 
   $('.clear_data').on('click',function(){
@@ -190,9 +192,18 @@ function mySnakeFn(){
   //游戏结束
   function gameOver(){
     $('.over').show();
-    if (1 + parseInt($('.ranking_list li').length) == 1){
-      document.getElementById('couponCodeBtn').style.display='block';
-    }
+    $.each($('.ranking_list li'),function() {
+      if ($(this).children('.No') == 1) {
+        document.getElementById('no1_name').innerHTML = yourName();
+        document.getElementById('no1_score').innerHTML = myVar.myscore;
+      } else if ($(this).children('.No') == 2) {
+        document.getElementById('no2_name').innerHTML = yourName();
+        document.getElementById('no2_score').innerHTML = myVar.myscore;
+      } else if ($(this).children('.No') == 3) {
+        document.getElementById('no3_name').innerHTML = yourName();
+        document.getElementById('no3_score').innerHTML = myVar.myscore;
+      }
+    })
   }
 
   //排行榜
@@ -227,5 +238,7 @@ function mySnakeFn(){
       $(this).children('.NO').html($(this).index() +1)
     })
   }
+
+
 
 }

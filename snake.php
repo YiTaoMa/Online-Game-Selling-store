@@ -6,11 +6,6 @@
 
     
 <head>
-	<audio controls="controls" autoplay="autoplay" controls="controls" loop="loop" >
-			<source src="music/hahaha.mp3" type="audio/mp3">
-			<source src="music/hahaha.mp3" type="audio/ogg">
-			<embed height="50px" width="100px" src="file/tears.mp3">
-		</audio>
     <?php require_once('fragment/head.inc.php'); ?>
     <meta charset="utf-8">
     <title>Snake</title>
@@ -23,6 +18,11 @@
 <?php require_once('fragment/nav.inc.php'); ?>
 
 <div class="container">
+    <audio controls="controls" autoplay="autoplay" controls="controls" loop="loop" >
+        <source src="music/hahaha.mp3" type="audio/mp3">
+        <source src="music/hahaha.mp3" type="audio/ogg">
+        <embed height="50px" width="100px" src="file/tears.mp3">
+    </audio>
     <div class="wrap">
         <ul class="snake_wrap">
             <li class="light"></li>
@@ -33,7 +33,6 @@
         <div class="Data">
             <div class="score">0</div>
             <ul class="ranking_list"></ul>
-            <button id="couponCodeBtn" class="couponBtn" onclick="document.getElementById('u-coupon').style.display='block'">Generate Coupon Code </button>
         </div>
 
 
@@ -54,6 +53,8 @@
             <p>When the snake head jumps out of the boundary or hits itself, the game ends.</p>
         </div>
 
+
+
         <div class="w-border" id="u-coupon">
             <div class="w-head">
                 <span class="w-title">Generate Coupon Code</span>
@@ -72,7 +73,38 @@
             </div>
         </div>
     </div>
-
+    <div class="reward">
+        <ul class="reward_list">
+            <li>
+                <h5>NO.1</h5>
+                <p class="reward_no1" id="no1_name">Name</p>
+                <img src="img/80.jpg" alt="80% off" width="200" height="100"><br>
+                <p class="reward_no3" id="no1_score">Score</p><br>
+                <button onclick="document.getElementById('u-coupon').style.display='block'">Receive Code</button>
+            </li>
+            <li>
+                <h5>NO.2</h5>
+                <p class="reward_no2" id="no2_name">Name</p>
+                <img src="img/50.jpg" alt="50% off" width="200" height="100"><br>
+                <p class="reward_no3" id="no2_score">Score</p><br>
+                <button onclick="document.getElementById('u-coupon').style.display='block'">Receive Code</button>
+            </li>
+            <li>
+                <h5>NO.3</h5>
+                <p class="reward_no3" id="no3_name">Name</p>
+                <img src="img/30.jpg" alt="30% off" width="200" height="100"><br>
+                <p class="reward_no3" id="no3_score">Score</p><br>
+                <button onclick="document.getElementById('u-coupon').style.display='block'">Receive Code</button>
+            </li>
+            <li>
+                <h5>NO.4-10</h5>
+                <p class="reward_no4-10"></p>
+                <img src="img/10.jpg" alt="10% off" width="200" height="100"><br>
+                <p class="reward_no4-10"></p><br>
+                <button onclick="document.getElementById('u-coupon').style.display='block'">Receive Code</button>
+            </li>
+        </ul>
+    </div>
 
     <?php require_once('fragment/footer.inc.php'); ?>
 </div>
