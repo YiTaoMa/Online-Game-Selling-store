@@ -19,5 +19,12 @@
         "email": "test1@test.mail",
         "phone": "+61 412 345 678",
         "password": "123456"
+    },
+    "xin@mail.com": {
+        "firstname": "xin",
+        "lastname": "lin",
+        "email": "xin@mail.com",
+        "phone": "+61 412 345 678",
+        "password": "123456"
     }
 }
