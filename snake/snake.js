@@ -193,13 +193,13 @@ function mySnakeFn(){
   function gameOver(){
     $('.over').show();
     $.each($('.ranking_list li'),function() {
-      if ($(this).children('.No') == 1) {
+      if ($(this).children('.No').val() == 1) {
         document.getElementById('no1_name').innerHTML = yourName();
         document.getElementById('no1_score').innerHTML = myVar.myscore;
-      } else if ($(this).children('.No') == 2) {
+      } else if ($(this).children('.No').val() == 2) {
         document.getElementById('no2_name').innerHTML = yourName();
         document.getElementById('no2_score').innerHTML = myVar.myscore;
-      } else if ($(this).children('.No') == 3) {
+      } else if ($(this).children('.No').val() == 3) {
         document.getElementById('no3_name').innerHTML = yourName();
         document.getElementById('no3_score').innerHTML = myVar.myscore;
       }
@@ -238,7 +238,5 @@ function mySnakeFn(){
       $(this).children('.NO').html($(this).index() +1)
     })
   }
-
-
 
 }

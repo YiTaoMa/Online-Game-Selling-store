@@ -56,10 +56,10 @@
 
 
 
-        <div class="w-border" id="u-coupon">
+        <div class="w-border" id="u-coupon1">
             <div class="w-head">
                 <span class="w-title">Generate Coupon Code</span>
-                <span title="closeAncSave" id="opt-bt-yes" class="w-close-x" onclick="document.getElementById('u-coupon').style.display='none'">×</span>
+                <span title="closeAncSave" id="opt-bt-yes" class="w-close-x" onclick="document.getElementById('u-coupon1').style.display='none'">×</span>
             </div>
             <div class="w-body">
                 <div class="cont-opt">
@@ -67,7 +67,58 @@
 
                     <div class="opt-item">
                         <div>
-                            <?php require_once('snake/couponCode.php'); ?>
+                            NO1-<?php require('snake/couponCode.php'); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-border" id="u-coupon2">
+            <div class="w-head">
+                <span class="w-title">Generate Coupon Code</span>
+                <span title="closeAncSave" id="opt-bt-yes" class="w-close-x" onclick="document.getElementById('u-coupon2').style.display='none'">×</span>
+            </div>
+            <div class="w-body">
+                <div class="cont-opt">
+                    <div>This is Your Coupon Code</div>
+
+                    <div class="opt-item">
+                        <div>
+                           NO2-<?php require('snake/couponCode.php'); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-border" id="u-coupon3">
+            <div class="w-head">
+                <span class="w-title">Generate Coupon Code</span>
+                <span title="closeAncSave" id="opt-bt-yes" class="w-close-x" onclick="document.getElementById('u-coupon3').style.display='none'">×</span>
+            </div>
+            <div class="w-body">
+                <div class="cont-opt">
+                    <div>This is Your Coupon Code</div>
+
+                    <div class="opt-item">
+                        <div>
+                            NO3-<?php require('snake/couponCode.php'); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-border" id="u-coupon4-10">
+            <div class="w-head">
+                <span class="w-title">Generate Coupon Code</span>
+                <span title="closeAncSave" id="opt-bt-yes" class="w-close-x" onclick="document.getElementById('u-coupon4-10').style.display='none'">×</span>
+            </div>
+            <div class="w-body">
+                <div class="cont-opt">
+                    <div>This is Your Coupon Code</div>
+
+                    <div class="opt-item">
+                        <div>
+                            TOP10-<?php require('snake/couponCode.php'); ?>
                         </div>
                     </div>
                 </div>
@@ -81,28 +132,40 @@
                 <p class="reward_no1" id="no1_name">Name</p>
                 <img src="img/80.jpg" alt="80% off" width="200" height="100"><br>
                 <p class="reward_no3" id="no1_score">Score</p><br>
-                <button onclick="document.getElementById('u-coupon').style.display='block'">Receive Code</button>
+                <button onclick="document.getElementById('u-coupon1').style.display='block';
+                document.getElementById('u-coupon2').style.display='none';
+                document.getElementById('u-coupon3').style.display='none';
+                document.getElementById('u-coupon4-10').style.display='none'">Receive Coupon Code</button>
             </li>
             <li>
                 <h5>NO.2</h5>
                 <p class="reward_no2" id="no2_name">Name</p>
                 <img src="img/50.jpg" alt="50% off" width="200" height="100"><br>
                 <p class="reward_no3" id="no2_score">Score</p><br>
-                <button onclick="document.getElementById('u-coupon').style.display='block'">Receive Code</button>
+                <button onclick="document.getElementById('u-coupon2').style.display='block';
+                document.getElementById('u-coupon3').style.display='none';
+                document.getElementById('u-coupon1').style.display='none';
+                document.getElementById('u-coupon4-10').style.display='none'">Receive Coupon Code</button>
             </li>
             <li>
                 <h5>NO.3</h5>
                 <p class="reward_no3" id="no3_name">Name</p>
                 <img src="img/30.jpg" alt="30% off" width="200" height="100"><br>
                 <p class="reward_no3" id="no3_score">Score</p><br>
-                <button onclick="document.getElementById('u-coupon').style.display='block'">Receive Code</button>
+                <button onclick="document.getElementById('u-coupon3').style.display='block';
+                document.getElementById('u-coupon1').style.display='none';
+                document.getElementById('u-coupon2').style.display='none';
+                document.getElementById('u-coupon4-10').style.display='none'">Receive Coupon Code</button>
             </li>
             <li>
                 <h5>NO.4-10</h5>
                 <p class="reward_no4-10"></p>
                 <img src="img/10.jpg" alt="10% off" width="200" height="100"><br>
                 <p class="reward_no4-10"></p><br>
-                <button onclick="document.getElementById('u-coupon').style.display='block'">Receive Code</button>
+                <button onclick="document.getElementById('u-coupon4-10').style.display='block';
+                document.getElementById('u-coupon3').style.display='none';
+                document.getElementById('u-coupon1').style.display='none';
+                document.getElementById('u-coupon2').style.display='none'">Receive Coupon Code</button>
             </li>
         </ul>
     </div>
