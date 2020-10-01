@@ -169,14 +169,14 @@
             <img class=" box" src="StorePackage/game1.jpg" alt="GameImage1" width="200px" height="200px"> <br>
             <span class="gameFont">Tony Hawk’s Pro Skater 1 + 2<br><span class="colorWhite">$69.95 </span>
                 <span class="couponCode">Coupon Code applied</span><br><br><br>
-                <div><a class="box checkout" href="purchase/G1.php" target="_parent">Check Out</a></div>
+                <div><a class="box checkout" href="G1.php" target="_parent">Check Out</a></div>
         </div>
 
         <div class="game2 box">
             <img class="box" src="StorePackage/game2.jpg" alt="GameImage2" width="200px" height="200px"> <br>
             <span class="gameFont">NBA 2K21 Mamba Forever Edition<br><span
                     class="colorWhite">$149.95</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase/G2.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="G2.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -184,14 +184,14 @@
             <img class="box" src="StorePackage/game3.jpg" alt="GameImage3" width="200px" height="200px"> <br>
             <span class="gameFont">Marvel's Avengers<br><span class="colorWhite">$99.95</span></span>
             <span class="couponCode">Coupon Code applied</span><br><br><br>
-            <div><a class="box checkout" href="purchase/G3.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="G3.php" target="_parent">Check Out</a></div>
 
         </div>
 
         <div class="game4 box">
             <img class="box" src="StorePackage/game4.jpg" alt="GameImage4" width="200px" height="200px"> <br>
             <span class="gameFont">NBA 2K21<br><span class="colorWhite">$99.95</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase/G4.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="G4.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -199,7 +199,7 @@
             <img class="box" src="StorePackage/game5.jpg" alt="GameImage5" width="200px" height="200px"> <br>
             <span class="gameFont">Crash Bandicoot 4: It's About Time<br><span
                     class="colorWhite">$99.95</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase/G5.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="G5.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -207,21 +207,21 @@
             <img class="box" src="StorePackage/game6.jpg" alt="GameImage6" width="200px" height="200px"> <br>
             <span class="gameFont">Call of Duty®: Black Ops Cold War<br><span class="colorWhite">$109.95</span></span>
             <span class="couponCode">Coupon Code applied</span><br><br><br>
-            <div><a class="box checkout" href="purchase/G6.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="G6.php" target="_parent">Check Out</a></div>
         </div>
 
         <div class="game7 box">
             <img class=" box" src="StorePackage/game7.jpg" alt="GameImage7" width="200px" height="200px"> <br>
             <span class="gameFont">Assassin's Creed: Valhalla Drakkar Edition<br><span class="colorWhite">$99.95 </span>
                 <span class="couponCode">Coupon Code applied</span><br><br><br>
-                <div><a class="box checkout" href="purchase/G7.php" target="_parent">Check Out</a></div>
+                <div><a class="box checkout" href="G7.php" target="_parent">Check Out</a></div>
         </div>
 
         <div class="game8 box">
             <img class="box" src="StorePackage/game8.jpg" alt="GameImage8" width="200px" height="200px"> <br>
             <span class="gameFont">EA Sports UFC 4<br><span class="colorWhite">$99.95</span></span>
             <span class="couponCode">Coupon Code applied</span><br><br><br>
-            <div><a class="box checkout" href="purchase/G8.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="G8.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -229,14 +229,14 @@
             <img class="box" src="StorePackage/game9.jpg" alt="GameImage9" width="200px" height="200px"> <br>
             <span class="gameFont">Mafia: Definitive Edition<br><span
                     class="colorWhite">$69.95</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase/G9.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="G9.php" target="_parent">Check Out</a></div>
 
         </div>
 
         <div class="game10 box">
             <img class="box" src="StorePackage/game10.jpg" alt="GameImage10" width="200px" height="200px"> <br>
             <span class="gameFont">Minecraft Dungeons<br><span class="colorWhite">$49.95</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase/G10.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="G10.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -244,14 +244,14 @@
             <img class="box" src="StorePackage/game11.jpg" alt="GameImage11" width="200px" height="200px"> <br>
             <span class="gameFont">Hogwarts Legacy<br><span class="colorWhite">$99.95</span></span>
             <span class="couponCode">Coupon Code applied</span><br><br><br>
-            <div><a class="box checkout" href="purchase/G11.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="G11.php" target="_parent">Check Out</a></div>
 
         </div>
 
         <div class="game12 box">
             <img class="box" src="StorePackage/game12.jpg" alt="GameImage12" width="200px" height="200px"> <br>
             <span class="gameFont">Days Gone (preowned)<br><span class="colorWhite">$22.00</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase/G12.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="G12.php" target="_parent">Check Out</a></div>
         </div>
 
     </div>
