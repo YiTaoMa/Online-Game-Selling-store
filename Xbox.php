@@ -168,14 +168,14 @@
             <img class=" box" src="StorePackage/Xgame1.jpg" alt="XGameImage1" width="200px" height="200px"> <br>
             <span class="gameFont">LEGO Star Wars: The Skywalker Saga (Placeholder Price)<br><span class="colorWhite">$89.95 </span>
                 <span class="couponCode">Coupon Code applied</span><br><br><br>
-                <div><a class="box checkout" href="purchase/X1.php" target="_parent">Check Out</a></div>
+                <div><a class="box checkout" href="X1.php" target="_parent">Check Out</a></div>
         </div>
 
         <div class="game2 box">
             <img class="box" src="StorePackage/Xgame2.jpg" alt="XGameImage2" width="200px" height="200px"> <br>
             <span class="gameFont">Car Mechanic Simulator<br><span
                     class="colorWhite">$49.95</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase/X2.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="X2.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -183,7 +183,7 @@
             <img class="box" src="StorePackage/Xgame3.jpg" alt="XGameImage3" width="200px" height="200px"> <br>
             <span class="gameFont">Skater XL<br><span class="colorWhite">$69</span></span>
             <br><br><br>
-            <div><a class="box checkout" href="purchase/X3.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="X3.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -191,7 +191,7 @@
             <img class="box" src="StorePackage/Xgame4.jpg" alt="XGameImage4" width="200px" height="200px"> <br>
             <span class="gameFont">Dragon Ball Z: Kakarot<br><span class="colorWhite">$79.95</span></span>
             <span class="couponCode">Coupon Code applied</span><br><br><br>
-            <div><a class="box checkout" href="purchase/X4.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="X4.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -199,7 +199,7 @@
             <img class="box" src="StorePackage/Xgame5.jpg" alt="XGameImage5" width="200px" height="200px"> <br>
             <span class="gameFont">Little Nightmares 2 Day One Edition<br><span
                     class="colorWhite">$59.95</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase/X5.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="X5.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -207,21 +207,21 @@
             <img class="box" src="StorePackage/Xgame6.jpg" alt="XGameImage6" width="200px" height="200px"> <br>
             <span class="gameFont">Tom Clancy's Ghost Recon: Wildlands Year 2 Gold Edition<br><span class="colorWhite">$24.95</span></span>
            <br><br><br>
-            <div><a class="box checkout" href="purchase/X6.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="X6.php" target="_parent">Check Out</a></div>
         </div>
 
         <div class="game7 box">
             <img class=" box" src="StorePackage/Xgame7.jpg" alt="XGameImage7" width="200px" height="200px"> <br>
             <span class="gameFont">AFL Evolution 2<br><span class="colorWhite">$99.95 </span>
                 <span class="couponCode">Coupon Code applied</span><br><br><br>
-                <div><a class="box checkout" href="purchase/X7.php" target="_parent">Check Out</a></div>
+                <div><a class="box checkout" href="X7.php" target="_parent">Check Out</a></div>
         </div>
 
         <div class="game8 box">
             <img class="box" src="StorePackage/Xgame8.jpg" alt="XGameImage8" width="200px" height="200px"> <br>
             <span class="gameFont">Spongebob Squarepants: Battle for Bikini Bottom – Rehydrated<br><span class="colorWhite">$49.95</span></span>
             <br><br><br>
-            <div><a class="box checkout" href="purchase/X8.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="X8.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -229,14 +229,14 @@
             <img class="box" src="StorePackage/Xgame9.jpg" alt="XGameImage9" width="200px" height="200px"> <br>
             <span class="gameFont">No Man's Sky<br><span
                     class="colorWhite">$59.95</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase/X9.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="X9.php" target="_parent">Check Out</a></div>
 
         </div>
 
         <div class="game10 box">
             <img class="box" src="StorePackage/Xgame10.jpg" alt="XGameImage10" width="200px" height="200px"> <br>
             <span class="gameFont">Anthem (preowned)<br><span class="colorWhite">$4.00</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase/X10.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="X10.php" target="_parent">Check Out</a></div>
 
         </div>
 
@@ -244,14 +244,14 @@
             <img class="box" src="StorePackage/Xgame11.jpg" alt="XGameImage11" width="200px" height="200px"> <br>
             <span class="gameFont">A.O.T 2: Final Battle<br><span class="colorWhite">$39.95</span></span>
            <br><br><br>
-            <div><a class="box checkout" href="purchase/X11.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="X11.php" target="_parent">Check Out</a></div>
 
         </div>
 
         <div class="game12 box">
             <img class="box" src="StorePackage/Xgame12.jpg" alt="XGameImage12" width="200px" height="200px"> <br>
             <span class="gameFont">Borderlands 3 (preowned)<br><span class="colorWhite">$25.00</span></span><br><br><br>
-            <div><a class="box checkout" href="purchase/X12.php" target="_parent">Check Out</a></div>
+            <div><a class="box checkout" href="X12.php" target="_parent">Check Out</a></div>
         </div>
 
     </div>
