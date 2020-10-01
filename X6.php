@@ -1,4 +1,4 @@
-<?php require_once('fragment/functions.inc.php'); ?>
+<?php require_once('fragment/authorise.inc.php'); ?><?php require_once('fragment/functions.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <?php require_once('fragment/functions.inc.php'); ?>
