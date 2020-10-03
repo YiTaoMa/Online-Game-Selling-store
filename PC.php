@@ -22,7 +22,8 @@
         width: 100%;
         height: 100%;
         margin: auto;
-        background-color: rgb(68 60 54 / 1);
+        background-color: hsla(200,0%,0%,.7);
+
     }
 
     .nav {
@@ -149,8 +150,9 @@
     }
 
     .checkout {
-        background-color: red;
-        color: white;
+        background-color: #ADEFD1FF;
+        border-radius: 12px;
+        color: black;
         font-weight: bold;
     }
     </style>
@@ -182,7 +184,7 @@
         <div class="game3 box">
             <img class="box" src="StorePackage/PCgame3.jpg" alt="PCGameImage3" width="200px" height="200px"> <br>
             <span class="gameFont">The Elder Scrolls Online: Greymoor Upgrade Collector's Edition<br><span class="colorWhite">$249.95</span></span>
-            <span class="couponCode">Coupon Code applied</span><br><br><br>
+            <span class="couponCode">Coupon Code applied</span><br><br>
             <div><a class="box checkout" href="PC3.php" target="_parent">Check Out</a></div>
 
         </div>
@@ -190,7 +192,7 @@
         <div class="game4 box">
             <img class="box" src="StorePackage/PCgame4.jpg" alt="PCGameImage4" width="200px" height="200px"> <br>
             <span class="gameFont">Rage 2<br><span class="colorWhite">$14.95</span></span>
-            <br><br><br>
+            <br><br><br><br>
             <div><a class="box checkout" href="PC4.php" target="_parent">Check Out</a></div>
 
         </div>
@@ -213,14 +215,14 @@
         <div class="game7 box">
             <img class=" box" src="StorePackage/PCgame7.jpg" alt="PCGameImage7" width="200px" height="200px"> <br>
             <span class="gameFont">Paranormal Pursuit: The Gifted One<br><span class="colorWhite">$14.95 </span>
-                <br><br><br>
+                <br><br>
                 <div><a class="box checkout" href="PC7.php" target="_parent">Check Out</a></div>
         </div>
 
         <div class="game8 box">
             <img class="box" src="StorePackage/PCgame8.jpg" alt="PCGameImage8" width="200px" height="200px"> <br>
             <span class="gameFont">Crash Bandicoot: N-Sane Trilogy<br><span class="colorWhite">$69.95</span></span>
-            <span class="couponCode">Coupon Code applied</span><br><br><br>
+            <span class="couponCode">Coupon Code applied</span><br><br>
             <div><a class="box checkout" href="PC8.php" target="_parent">Check Out</a></div>
 
         </div>

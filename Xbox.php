@@ -22,7 +22,7 @@
         width: 100%;
         height: 100%;
         margin: auto;
-        background-color: rgb(68 60 54 / 1);
+        background-color: hsla(200,0%,0%,.7);
     }
 
     .nav {
@@ -149,8 +149,9 @@
     }
 
     .checkout {
-        background-color: red;
-        color: white;
+        background-color: #ADEFD1FF;
+        border-radius: 12px;
+        color: black;
         font-weight: bold;
     }
     </style>
@@ -174,7 +175,7 @@
         <div class="game2 box">
             <img class="box" src="StorePackage/Xgame2.jpg" alt="XGameImage2" width="200px" height="200px"> <br>
             <span class="gameFont">Car Mechanic Simulator<br><span
-                    class="colorWhite">$49.95</span></span><br><br><br>
+                    class="colorWhite">$49.95</span></span><br><br><br><br>
             <div><a class="box checkout" href="X2.php" target="_parent">Check Out</a></div>
 
         </div>
@@ -182,7 +183,7 @@
         <div class="game3 box">
             <img class="box" src="StorePackage/Xgame3.jpg" alt="XGameImage3" width="200px" height="200px"> <br>
             <span class="gameFont">Skater XL<br><span class="colorWhite">$69</span></span>
-            <br><br><br>
+            <br><br><br><br>
             <div><a class="box checkout" href="X3.php" target="_parent">Check Out</a></div>
 
         </div>
@@ -190,7 +191,7 @@
         <div class="game4 box">
             <img class="box" src="StorePackage/Xgame4.jpg" alt="XGameImage4" width="200px" height="200px"> <br>
             <span class="gameFont">Dragon Ball Z: Kakarot<br><span class="colorWhite">$79.95</span></span>
-            <span class="couponCode">Coupon Code applied</span><br><br><br>
+            <span class="couponCode">Coupon Code applied</span><br><br><br><br>
             <div><a class="box checkout" href="X4.php" target="_parent">Check Out</a></div>
 
         </div>
@@ -220,7 +221,7 @@
         <div class="game8 box">
             <img class="box" src="StorePackage/Xgame8.jpg" alt="XGameImage8" width="200px" height="200px"> <br>
             <span class="gameFont">Spongebob Squarepants: Battle for Bikini Bottom – Rehydrated<br><span class="colorWhite">$49.95</span></span>
-            <br><br><br>
+            <br><br>
             <div><a class="box checkout" href="X8.php" target="_parent">Check Out</a></div>
 
         </div>
