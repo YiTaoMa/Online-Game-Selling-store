@@ -18,12 +18,12 @@
 <?php require_once('fragment/nav.inc.php'); ?>
 
 <div class="container">
-    <audio controls="controls" autoplay="autoplay" controls="controls" loop="loop" >
+    <audio controls="controls" autoplay="autoplay" controls="controls" loop="loop" id="musicAudio">
         <source src="music/hahaha.mp3" type="audio/mp3">
         <source src="music/hahaha.mp3" type="audio/ogg">
         <embed height="50px" width="100px" src="file/tears.mp3">
     </audio>
-    <h1 style="font-family: Courier New; font-size: 30px;">Welcome HD Games! Before you go shopping, try playing games to relax and you may get coupons.</h1>
+    <h2 style="font-family: Courier New; text-align: center;">Welcome HD Games! Before you go shopping, try playing games to relax and you may get coupons.</h2>
     <div class="wrap">
         <ul class="snake_wrap">
             <li class="light"></li>
@@ -34,6 +34,7 @@
         <div class="Data">
             <div class="score">0</div>
             <ul class="ranking_list"></ul>
+            <button class="couponBtn" style="display: block" onclick="document.getElementById('u-settings').style.display='block'">Settings</button>
         </div>
 
 
@@ -49,7 +50,7 @@
             <h3>Guidance</h3>
             <p>Enter the game nickname (do not enter the default "guest").</p>
             <p>Click the "Start" button to start the game.</p>
-            <p>Use the keyboard arrow keys (A W S D) to control the direction, and the space bar to pause.</p>
+            <p>Use the keyboard arrow keys <b>(A W S D)</b> to control the direction, and the space bar to pause.</p>
             <p>After the game starts, every time you successfully eat food, the score increases by 1, and the body will lengthen by one piece. As the body of the snake lengthens, the speed will also increase.</p>
             <p>When the snake head jumps out of the boundary or hits itself, the game ends.</p>
         </div>
@@ -139,6 +140,33 @@
                 </div>
             </div>
         </div>
+        <div class="w-border" id="u-settings">
+            <div class="w-head">
+                <span class="w-title">Settings</span>
+                <span title="closeAncSave" id="opt-bt-yes" class="w-close-x" onclick="document.getElementById('u-settings').style.display='none'">×</span>
+            </div>
+            <div class="w-body">
+                <div class="cont-opt">
+                    <div>Music</div>
+
+                    <div class="opt-item mb-sound">
+                        <div>
+                            <span>Pause</span><input id="off-sound" type="checkbox">
+                        </div>
+                    </div>
+
+                    <div>About</div>
+                    <div class="opt-item about-me">
+                        <span><b>AR-TH-930-HD</b></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reward-explain">
+        <h4><b>RULES</b></h4>
+        <p>1. Players who enter the top 10 can receive corresponding rewards on the page the next day</p>
+        <p>2. The leaderboard is reset at 0 o'clock every day, after 0 o'clock, the top 10 players from the previous day will be generated.</p>
     </div>
     <div class="reward">
         <ul class="reward_list">
@@ -150,7 +178,8 @@
                 <button onclick="document.getElementById('u-coupon1').style.display='block';
                 document.getElementById('u-coupon2').style.display='none';
                 document.getElementById('u-coupon3').style.display='none';
-                document.getElementById('u-coupon4-10').style.display='none'">Generate Coupon Code</button>
+                document.getElementById('u-coupon4-10').style.display='none';
+                document.getElementById('u-settings').style.display='none'">Generate Coupon Code</button>
             </li>
             <li>
                 <h5>NO.2</h5>
@@ -160,7 +189,8 @@
                 <button onclick="document.getElementById('u-coupon2').style.display='block';
                 document.getElementById('u-coupon3').style.display='none';
                 document.getElementById('u-coupon1').style.display='none';
-                document.getElementById('u-coupon4-10').style.display='none'">Generate Coupon Code</button>
+                document.getElementById('u-coupon4-10').style.display='none';
+                document.getElementById('u-settings').style.display='none'">Generate Coupon Code</button>
             </li>
             <li>
                 <h5>NO.3</h5>
@@ -170,7 +200,8 @@
                 <button onclick="document.getElementById('u-coupon3').style.display='block';
                 document.getElementById('u-coupon1').style.display='none';
                 document.getElementById('u-coupon2').style.display='none';
-                document.getElementById('u-coupon4-10').style.display='none'">Generate Coupon Code</button>
+                document.getElementById('u-coupon4-10').style.display='none';
+                document.getElementById('u-settings').style.display='none'">Generate Coupon Code</button>
             </li>
             <li>
                 <h5>NO.4-10</h5>
@@ -180,7 +211,8 @@
                 <button onclick="document.getElementById('u-coupon4-10').style.display='block';
                 document.getElementById('u-coupon3').style.display='none';
                 document.getElementById('u-coupon1').style.display='none';
-                document.getElementById('u-coupon2').style.display='none'">Generate Coupon Code</button>
+                document.getElementById('u-coupon2').style.display='none';
+                document.getElementById('u-settings').style.display='none'">Generate Coupon Code</button>
             </li>
         </ul>
     </div>
