@@ -5,9 +5,9 @@
             <p>&copy; HD Games 2020</p>
         </div>
         <div class="col-md-6 text-md-right">
-            <a href="#" class="text-dark">Terms of Use</a>
+            <a href="contact.php" class="text-dark">Contact Us</a>
             <span class="text-muted mx-2">|</span>
-            <a href="#" class="text-dark">Privacy Policy</a>
+            <a href="team.php" class="text-dark">About Us</a>
         </div>
     </div>
 </footer>
