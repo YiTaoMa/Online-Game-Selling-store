@@ -215,6 +215,12 @@ function mySnakeFn(){
 
   }
 
+  // initialize Ranking list
+  function initRankingList(){
+    var ranking_list = $('.ranking_list');
+
+  }
+
   //排行榜
   function rankingList(){
     //添加新的记录
@@ -247,6 +253,5 @@ function mySnakeFn(){
       $(this).children('.NO').html($(this).index() +1)
     })
   }
-
 
 }

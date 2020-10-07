@@ -248,7 +248,7 @@ body{
     align-items: center;
     font-size: 0.9em;
     border-radius: 3px;
-    margin: 5px 0;
+    margin: 0 auto;
     padding: 15px;
     border : 1px solid #999;
 }
@@ -314,4 +314,31 @@ body{
     text-align: center;
     margin: 0 auto;
     height: 22px;
+}
+
+.mb-sound{
+    justify-content: center;
+}
+
+.mb-sound div{
+    vertical-align: middle;
+}
+
+.mb-sound input{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.about-me{
+    justify-content: center;
+}
+
+.reward-explain{
+    text-align: center;
+    color: black;
+    font-family: "Courier New";
+    width: 1040px;
+    margin: 0 auto;
 }
