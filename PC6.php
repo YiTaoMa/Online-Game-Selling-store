@@ -193,7 +193,7 @@ span.price {
                 </div>
                 <br><br />
                 <label for="cvv">Coupon code</label>
-                <input type="text" id="cc" name="cc" >
+                <input type="text" id="cc" name="cc" placeholder="352" required="required">
                 
 				<p>(20% off by coupon code) </p>
                 <p>Sniper Ghost Warrior Contracts 2 <span class="price">$59.95 × 80%</span></p>
