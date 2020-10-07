@@ -194,7 +194,7 @@ span.price {
                 </div>
                 <br><br />
                 <label for="cvv">Coupon code</label>
-                <input type="text" id="cc" name="cc" placeholder="NO3-08-10-20">
+                <input type="text" id="cc" name="cc" required="required" placeholder="NO3-08-10-20">
                 
 				<p>(20% off by coupon code) </p>
                 <p>Cyberpunk 2077 Day One Edition <span class="price">$99.95 × 80%</span></p>
