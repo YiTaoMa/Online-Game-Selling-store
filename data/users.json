@@ -12,12 +12,5 @@
         "email": "xin@mail.com",
         "phone": "+61 412 345 678",
         "password": "123456"
-    },
-    "xin1@mail.com": {
-        "firstname": "11",
-        "lastname": "22",
-        "email": "xin1@mail.com",
-        "phone": "+61 412 345 678",
-        "password": "111111"
     }
 }
