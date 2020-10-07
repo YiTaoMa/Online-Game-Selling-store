@@ -193,7 +193,7 @@ span.price {
                 </div>
                 <br><br />
                 <label for="cvv">Coupon code</label>
-                <input type="text" id="cc" name="cc" >
+                <input type="text" id="cc" name="cc" required="required" placeholder="NO3-08-10-20">
                 
 				>(20% off by coupon code) </p>
                 <p>Dragon Ball Z: Kakarot <span class="price">$79.95 × 80%</span></p>
