@@ -10,7 +10,7 @@
     <style>
         body {
             font-family: Arial;
-            padding: 20px;
+            padding: 0;
             background: #f1f1f1;
         }
         .header {

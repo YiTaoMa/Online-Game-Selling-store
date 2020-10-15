@@ -17,22 +17,20 @@ $(function(){
 
 function mySnakeFn(){
 
-  //全局变量对相
+  // variables
   var myVar = {
-        //移动控制变量
+        // moving control variable (which way to go)
         del_x:-15,
         del_y:0,
-        //初始长度
+        // initial length (score)
         myscore:0,
-        //移动速度
+        // moving speed
         speed:100,
-        //计时器
+        // timer
         itimes:null
       }
 
-
-      // 初始位置
-
+      // Initial position
   ;(function(){
     var arr_snake = [['300px','390px'],['300px','405px'],['300px','420px']];
     $('.snake_wrap').empty();
@@ -42,35 +40,35 @@ function mySnakeFn(){
     })
   })(jQuery);
 
-  //键盘控制--上下左右暂停
+  // keyboard control - up, down, left, right and pause
   ;(function(){
 
-    //暂停判定
+    // whether to pause
     var stop = true;
 
     $(document).keydown(function(event) {
       switch(event.keyCode){
-          //空格 暂停
+          // space pause
         case 32:stop ? clearInterval(myVar.itimes) : run();
           stop = !stop;
           break;
-          //左
+          // left
         case 65:directionKey(-15,0,true);
           break;
-          //上
+          // up
         case 87:directionKey(0,-15,false);
           break;
-          //右
+          // right
         case 68:directionKey(15,0,true);
           break;
-          //下
+          // down
         case 83:directionKey(0,15,false);
           break;
       }
     });
   })(jQuery);
 
-  //方向判断
+  // Direction (which way to go)
   function directionKey(y1,y2,bour){
     if(!myVar.del_x == bour){
       myVar.del_x = y1;
@@ -79,37 +77,37 @@ function mySnakeFn(){
   }
 
   function run(){
-    //计时器，每speed时刷新一次
+    //timer, refresh every speed update
     myVar.itimes = setInterval(function(){
-      //获取当前食物位置
+      // Get current food location
       var food_top = $('.food').position().top;
       var food_left = $('.food').position().left;
-      //设置新增蛇头坐标
+      // Set new coordinates for snake head
       var header_top = $('.snake_wrap li').eq(0).position().top + myVar.del_y;
       var header_left = $('.snake_wrap li').eq(0).position().left + myVar.del_x;
-      //当前蛇头颜色重置
+      // reset current snake head color
       $('.snake_wrap li').eq(0).css({'background': '#FFC400'});
-      //新增蛇头，并赋予样式
+      // Add a snake head and give it a new style (color)
       $('.snake_wrap').prepend('<li></li>');
       $('.snake_wrap li').eq(0).css({'left':header_left + 'px','top':header_top + 'px','background':'#fff'})
-      //移除最后一节蛇尾
+      // Remove the last snake tail
       $('.snake_wrap li:last').remove();
 
-      //判断蛇是否吃到食物
+      // determine if the snake has eaten food
       if((header_left == (food_left - 1)) && (header_top == (food_top - 1))){
         var last_top = $('.snake_wrap li:last').position().top;
         var last_left = $('.snake_wrap li:last').position().left;
         $('.snake_wrap').append('<li></li>');
         $('.snake_wrap li:last').eq(0).css({'left':last_left + 'px','top':last_top + 'px'})
 
-        //刷新食物
+        // refresh food
         foodRandom();
 
-        //蛇身长度
+        // length of the snake (the score players get)
         myVar.myscore++;
         scoreFn(myVar.myscore);
 
-        //每加长5，速度提升10
+        // Every time the score add by 5, the speed increases by 10
         if(!(myVar.myscore%5) && myVar.speed > 10){
           clearInterval(myVar.itimes);
           myVar.speed -= 10;
@@ -117,20 +115,20 @@ function mySnakeFn(){
         }
       }
 
-      //边界判断
+      //determine whether the snake hit the boundary
       borderDetection(header_top,header_left);
-      //自撞判断
+      //determine whether the snake hit itself
       selfDetection(header_top,header_left);
     },myVar.speed)
   }
   run();
 
-  //分数
+  // score
   function scoreFn(x){
     $('.score').html(x)
   }
 
-  //食物
+  // Food
   function foodRandom(){
     var t = 40;
     var x = 54;
@@ -139,7 +137,7 @@ function mySnakeFn(){
     var top = parseInt(Math.random() * (t - y) + y);
     var left = parseInt(Math.random() * (x - y) + y);
 
-    //判断食物与蛇身坐标是否重合
+    // determine whether the coordinates of the food and the snake body coincide
     $('.snake_wrap li').each(function() {
       if($(this).position().left == left && $(this).position().top == top){
         foodRandom();
@@ -148,14 +146,14 @@ function mySnakeFn(){
       }
     });
 
-    //如果食物没在蛇身上，定位食物
+    // if the food is not covered by the snake, locate the food
     if(repeat){
       $('.food').css({'top':top*15 + 1 + 'px','left':left*15 + 1 + 'px'});
     }
   }
   foodRandom();
 
-  // 边界判定
+  //determine whether the snake hit the boundary
   function borderDetection(HT,HL){
     if(HT<0 || HT > 585 || HL < 0 || HL >795){
       clearInterval(myVar.itimes);
@@ -164,9 +162,10 @@ function mySnakeFn(){
     }
   }
 
-  //自撞判定
+  //determine whether the snake hit itself
   function selfDetection(HT,HL){
-    //从第二节开始，坐标是否与蛇头重合
+    // Start from the second section of the snake，
+    // whether the coordinates coincide with the snake head
     $('.snake_wrap li:gt(0)').each(function(index, val) {
       var this_top = $(this).position().top;
       var this_left = $(this).position().left;
@@ -178,7 +177,7 @@ function mySnakeFn(){
     })
   }
 
-  //获取用户昵称
+  // Get user nickname
   function yourName(){
     if($.trim($('input[name=your_name]').val()) != ''){
       return $('input[name=your_name]').val();
@@ -187,7 +186,7 @@ function mySnakeFn(){
     }
   }
 
-  //游戏结束
+  // game over
   function gameOver(){
     $('.over').show();
     // $.each($('.ranking_list li'),function() {
@@ -216,23 +215,24 @@ function mySnakeFn(){
   }
 
   // initialize Ranking list
-  function initRankingList(){
-    var ranking_list = $('.ranking_list');
+  // function initRankingList(){
+  //   var ranking_list = $('.ranking_list');
+  //
+  // }
 
-  }
-
-  //排行榜
+  // ranking list
   function rankingList(){
-    //添加新的记录
+    // Add new record
     var new_ranking = '<li><span class="NO">'+ (1 +parseInt($('.ranking_list li').length)) +'</span><span class="name">' +yourName()+ '</span><span class="score_list">' +myVar.myscore+ '</span></li>';
-    //排行榜容器
+    // ranking list container
     var ranking_list = $('.ranking_list');
 
-    //如果排行榜中有记录就进行排序，如果为空就直接添加
+    // if there are record in the ranking list, sort it
+    // if it is empty, add it directly
     if(ranking_list.has('li').length>0){
-      //记录长度
+      // record the length of the snake
       var li_len = $('.ranking_list li').length
-      //冒泡排序，把新的记录排列到对应的位置上
+      // bubble sort, arrange new records to corresponding positions
       for(var i = 0; i < li_len; i++){
 
         if(parseInt($('.ranking_list li').eq(i).children('span.score_list').html()) < parseInt(myVar.myscore)){
@@ -248,7 +248,7 @@ function mySnakeFn(){
 
 
 
-    //重新添加排号序列
+    // re-add the sorting sequence
     $.each($('.ranking_list li'),function(index,value){
       $(this).children('.NO').html($(this).index() +1)
     })
